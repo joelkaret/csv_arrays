@@ -8,7 +8,7 @@ setuptools.setup(
     author="Joel Karet",
     author_email="joelkaret@gmail.com",
     description="Helpful maniuplation in regards to arrays stored in CSV files",
-    url="https://github.com/joelkaret/csv_arrays",
+    url="https://github.com/joelkaret/csv_arrays.py.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
