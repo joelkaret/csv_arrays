@@ -39,9 +39,10 @@ def append_CSV(filename: str, appendage):
     array.append(appendage)
     write_CSV(filename, array)
 
-def append_CSV_line(filename: str, appendage, value: int, column: int = 0):
+def append_CSV_line(filename: str, value: int, column: int, *appendage):
     array = read_CSV(filename)
     for i in array:
         if i[column] == value:
-            i.append(appendage)
+            for j in appendage:
+                i.append(j)
     write_CSV(filename, array)
