@@ -10,7 +10,7 @@ setup(name="csv_arrays.py",
     url="https://github.com/joelkaret/csv_arrays.py",
     version="0.0.1",
     packages=packages,
-    license='MIT'
+    license='MIT',
     description="Helpful maniuplation in regards to arrays stored in CSV files.",
     #long_description = 
     python_requires=">=3.6",
